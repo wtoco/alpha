@@ -25,7 +25,7 @@ public class HelloServer {
                     }
                 });
         // 开放8000端口供客户端访问。
-        bootstrap.bind(new InetSocketAddress(8000));
+        bootstrap.bind(new InetSocketAddress(8123));
     }
 
     private static class HelloServerHandler extends

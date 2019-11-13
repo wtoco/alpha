@@ -24,7 +24,7 @@ public class HelloClient {
         });
         // 连接到本地的8000端口的服务端
         bootstrap.connect(new InetSocketAddress(
-                "127.0.0.1", 8000));
+                "127.0.0.1", 8123));
     }
 
     private static class HelloClientHandler extends SimpleChannelHandler {
